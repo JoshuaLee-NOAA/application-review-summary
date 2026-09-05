@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { SplitSlideData } from "@/types/presentation";
 import { CheckCircle2, ShieldCheck, Activity } from "lucide-react";
+import { SlideContainer } from "@/components/layout/SlideContainer";
 
 interface SplitSlideProps {
   data: SplitSlideData;
@@ -11,7 +12,7 @@ interface SplitSlideProps {
 
 export const SplitSlide: React.FC<SplitSlideProps> = ({ data }) => {
   return (
-    <div className="w-full min-h-[calc(100vh-8rem)] flex flex-col justify-center px-4 sm:px-8 py-8 max-w-7xl mx-auto">
+    <SlideContainer>
       {/* Category Header */}
       {data.category && (
         <span className="text-xs font-semibold text-noaa-blue uppercase tracking-wider mb-2 block">
@@ -112,6 +113,6 @@ export const SplitSlide: React.FC<SplitSlideProps> = ({ data }) => {
           )}
         </motion.div>
       </div>
-    </div>
+    </SlideContainer>
   );
 };

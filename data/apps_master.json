@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "name": "ATA (APAIS Assignment Tracking System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 2,
+    "name": "Administrative Information Management System (AIMS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 3,
+    "name": "Aircraft Prioritization, Allocation & Scheduling System (APASS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 4,
+    "name": "Asset Management & Planning (AMP)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 5,
+    "name": "Authorizations and Permits for Protected Species (APPS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 6,
+    "name": "Automated Letter of Cocurrence (LOC) (LOC)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 7,
+    "name": "Catch Logger for Acoustic Midwater Survey (CLAMS)",
+    "stack": "PyQt (Desktop)",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 8,
+    "name": "Centralized Account Management (CAM) system (CAM)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 9,
+    "name": "Climate Vulnerability Assessment Tools for Fish, Habitat, Protected Species (FCVA, HCVA, PSCVA)",
+    "stack": "R Shiny / Web Portal",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 10,
+    "name": "Cost recovery payment tracking (Cost Recovery)",
+    "stack": "Appian",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 11,
+    "name": "Data Warehouse (FRAM DW)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 12,
+    "name": "Directed Open Access Groundfish Permits (DOAG)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 13,
+    "name": "Distribution Mapping and Analysis Portal (DisMAP)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 14,
+    "name": "ECLB (East Coast Logbook)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Southeast Fisheries Science Center (SEFSC)"
+  },
+  {
+    "id": 15,
+    "name": "ESA (Endangered Species Act Species Range)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 16,
+    "name": "Economic Data Collection (EDC)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 17,
+    "name": "Ecosystem Toolbox",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 18,
+    "name": "Electronic Annual Operating System (eAOP)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 19,
+    "name": "Electronic Monitoring Drive Report Compliance (DREM)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 20,
+    "name": "Emergency Contact List (ECL)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 21,
+    "name": "Employee Advisory Board Survey Comment Page",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 22,
+    "name": "FIS Data Migration",
+    "stack": "Python / PL/SQL",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 23,
+    "name": "Foreign National Registration System (FNRS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 24,
+    "name": "FOSS_FEUS (Fisheries Economics of the U.S.)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 25,
+    "name": "FOSS_NBR (National Bycatch Report)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Greater Atlantic Regional Fisheries Office (GARFO)"
+  },
+  {
+    "id": 26,
+    "name": "Financial Services",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 27,
+    "name": "First Receiver Site Licenses (FRSL)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 28,
+    "name": "FishFinS (Fisheries Financial System)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 29,
+    "name": "Fisheries Effort Survey (FES)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 30,
+    "name": "Fisheries One Stop Shop (FOSS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 31,
+    "name": "Fishery Independent Survey System - Protected Species Incidental Take (FINSS-PSIT)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 32,
+    "name": "Fishery Independent Survey System - Survey Inventory (FINSS-SI)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 33,
+    "name": "GENERAL COUNSEL LITIGATION DATABASE (GCLD)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 34,
+    "name": "GSDS (Global Seafood Data System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 35,
+    "name": "Hook Logger (Hook Logger)",
+    "stack": "PyQt (Desktop)",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Alaska Fisheries Science Center (AFSC)"
+  },
+  {
+    "id": 36,
+    "name": "IBBS (International Billfish Biological Sampling System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 37,
+    "name": "IFQ_Suite",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 38,
+    "name": "ITDS ETL (ITDS Extract, Transform, Load)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 39,
+    "name": "IVP (Integrated Vessel and Permit System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Greater Atlantic Regional Fisheries Office (GARFO)"
+  },
+  {
+    "id": 40,
+    "name": "In Season Salmon Reporting Webservice (In Season Salmon)",
+    "stack": "Node.js / Express",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 41,
+    "name": "InPort Metadata Catalog (InPort)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 42,
+    "name": "Individual Fishing Quota under the West Coast Groundfish Catch Share Program (IFQ)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 43,
+    "name": "Intensively Monitored Watershed (IMW) Program (IMW)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 44,
+    "name": "International Trade Data System (ITDS) (Legacy)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Sunsetting",
+    "program_office": "Pacific Islands Regional Office (PIRO)"
+  },
+  {
+    "id": 45,
+    "name": "International Trade Data System (ITDS) (New)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Southeast Regional Office (SERO)"
+  },
+  {
+    "id": 46,
+    "name": "MDRS (MRIP Data Request System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 47,
+    "name": "METL (MRIP Extract, Transform, and Load)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 48,
+    "name": "MRIP Data Management and Standards (MDMS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 49,
+    "name": "MRIP Estimate Review and Information Tracking (MERIT)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Habitat Conservation (OHC)"
+  },
+  {
+    "id": 50,
+    "name": "MRIP Survey Directories (MSD)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 51,
+    "name": "Marine Mammal Health and Stranding Response Program (HealthMAP)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 52,
+    "name": "Marine Mammal Health and Stranding Response Program (MMHSRP)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 53,
+    "name": "Mission Support Services - Various administrative support applications - Project Planning Database, Safety Checklist, Micro-purchase, (MSS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 54,
+    "name": "NOAA Fisheries Public Website (www.fisheries.noaa.gov)",
+    "stack": "Drupal (CMS)",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 55,
+    "name": "NRDA BOF _ DWH (Natural Resource Damage Assessment)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Habitat Conservation (OHC)"
+  },
+  {
+    "id": 56,
+    "name": "NWFSC OLE Declarations",
+    "stack": "React",
+    "lifecycle_stage": "Modernization",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 57,
+    "name": "NWFSC_Cloud Migration",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 58,
+    "name": "NWFSC_DevOps",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Modernization",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 59,
+    "name": "National Inventory of Marine Mammals (NIMM)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 60,
+    "name": "National Performance Indicator for Fisheries (NPIF) (NPIF)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 61,
+    "name": "National Permits System - Back office (NPS BOF)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 62,
+    "name": "National Permits System - Public (NPS PUB)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 63,
+    "name": "National Saltwater Angler Registry (NSAR) National Registration Interface (NNRI)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 64,
+    "name": "National Saltwater Angler Registry (NSAR)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 65,
+    "name": "OLE SEIVR DECLARATIONS (OLE SEIVR Declarations)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 66,
+    "name": "OLE SEIVR WEBSERVICE (OLE SEIVR Web Service)",
+    "stack": "Node.js / Express",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 67,
+    "name": "OLE VMS VESSEL REGISTRATION SYSTEM (OLE VMS Vessel Registration System)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 68,
+    "name": "OPTECS PWA (OPTECS 2.0 OPTECS 3.0 OBSWEB)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 69,
+    "name": "Observer",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Southeast Fisheries Science Center (SEFSC)"
+  },
+  {
+    "id": 70,
+    "name": "Operational Data Store (ODS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 71,
+    "name": "PIMS Budget Module (PBM) _ Program Information Management System - Survey Budget Module",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 72,
+    "name": "Pacific Coast Ground Fish, Halibut and Trawl Catch Shares Program",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 73,
+    "name": "Pacific Coast Halibut Portal (Halibut)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "West Coast Regional Office (WCRO)"
+  },
+  {
+    "id": 74,
+    "name": "Pacific Coastal Salmon Recovery Fund (PCSRF)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 75,
+    "name": "Poseidon",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Alaska Fisheries Science Center (AFSC)"
+  },
+  {
+    "id": 76,
+    "name": "Program Information Management System (PIMS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 77,
+    "name": "Protected Species Information System (PSIS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 78,
+    "name": "RCDB (Restoration and Conservation Database)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Habitat Conservation (OHC)"
+  },
+  {
+    "id": 79,
+    "name": "REDSnapper",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Southeast Regional Office (SERO)"
+  },
+  {
+    "id": 80,
+    "name": "Research Catch (Research Catch)",
+    "stack": "React",
+    "lifecycle_stage": "Modernization",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 81,
+    "name": "Research Publication Tracking System (RPTS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 82,
+    "name": "SEAFOOD INSPECTION SERVICES PORTAL (LEGACY)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Sunsetting",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 83,
+    "name": "SEAFOOD INSPECTION SERVICES PORTAL SISP (NEW)",
+    "stack": "React",
+    "lifecycle_stage": "Modernization",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 84,
+    "name": "Sablefish Growth Data for Aquaculture",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 85,
+    "name": "Salmon Population Summary (SPS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 86,
+    "name": "Site Register (Site Register)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 87,
+    "name": "Southern Resident Killer Whale (SRKW)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 88,
+    "name": "Species Information System (SIS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 89,
+    "name": "Stock Status, Management, Assessments & Resource Trends (StockSMART) (StockSMART)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 90,
+    "name": "Survey Data Tender (TENDER)",
+    "stack": "Python / Node.js",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 91,
+    "name": "Traceability Information Program for Seafood (TIPS)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of International Affairs, Trade, and Commerce (IATC)"
+  },
+  {
+    "id": 92,
+    "name": "Trawl (Trawl Backdeck and Analyzer)",
+    "stack": "PyQt (Desktop)",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 93,
+    "name": "Trips Api (Trips Api)",
+    "stack": "Node.js / Express",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 94,
+    "name": "UPASS (Uncrewed Systems Prioritization, Allocation & Scheduling System)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 95,
+    "name": "VIAME (Video and Image Analytics for Marine Environments)",
+    "stack": "C++ / PythonUI",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 96,
+    "name": "VOP (Vessel Operations Program)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 97,
+    "name": "VRS IVR (OLE WebService for IVR Phone System connection to Oracle Database)",
+    "stack": "Java / Web Services",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 98,
+    "name": "Vessel Directory (Vessel Directory)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 99,
+    "name": "Vessel Prioritization, Allocation & Scheduling System (VPASS)",
+    "stack": "Java / JSP",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 100,
+    "name": "WCR OLE Declarations (OLE Declarations)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 101,
+    "name": "West Coast Observer Data (OBSPROD)",
+    "stack": "React",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Northwest Fisheries Science Center (NWFSC)"
+  },
+  {
+    "id": 102,
+    "name": "NMFS Travel Connection (NTC)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 103,
+    "name": "NMFS Agreement Tracking System (NATS)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 104,
+    "name": "Fisheries Law Enforcement Event Tracking (FLEET)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 105,
+    "name": "NOAA Enforcement Information System (NEIS)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Law Enforcement (OLE)"
+  },
+  {
+    "id": 106,
+    "name": "Group Travel Tracker (GTT)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Management and Budget (OMB)"
+  },
+  {
+    "id": 107,
+    "name": "Tableau Server (Tableau)",
+    "stack": "Tableau Portal",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 108,
+    "name": "Public website - Drupal (Drupal)",
+    "stack": "Drupal (CMS)",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 109,
+    "name": "Fisheries Climate Vulnerability Assessment (FCVA)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 110,
+    "name": "Habitat Climate Vulnerability Assessment (HCVA)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Habitat Conservation (OHC)"
+  },
+  {
+    "id": 111,
+    "name": "Protected Species Climate Vulnerability Assessment (PSCVA)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Protected Resources (OPR)"
+  },
+  {
+    "id": 112,
+    "name": "FOSS Admin Tool (FOSS Admin)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 113,
+    "name": "Employee Advisory Board - Admin Tool (EAB Admin)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of the Chief Information Officer (OCIO)"
+  },
+  {
+    "id": 114,
+    "name": "FINSS Reports APEX Application (FINSS Reports)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 115,
+    "name": "Vessel Operations Program - MFP (VOP-MFP)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 116,
+    "name": "VOP Reports (VOP Reports)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 117,
+    "name": "VOP Training Records (VOP Training)",
+    "stack": "Oracle APEX",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Science and Technology (S&T)"
+  },
+  {
+    "id": 118,
+    "name": "National Permit System ServiceNow (NPS ServiceNow)",
+    "stack": "ServiceNow",
+    "lifecycle_stage": "Active Development",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 119,
+    "name": "Permit Information Management System (PIMS)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Sustainable Fisheries (OSF)"
+  },
+  {
+    "id": 120,
+    "name": "Environmental Consultation Organizer (ECO)",
+    "stack": "Appian",
+    "lifecycle_stage": "Operations & Maintenance",
+    "program_office": "Office of Protected Resources / Office of Habitat Conservation (OPR / OHC)"
+  }
+]

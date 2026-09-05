@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { QuoteSlideData } from "@/types/presentation";
 import { Quote, Anchor } from "lucide-react";
+import { SlideContainer } from "@/components/layout/SlideContainer";
 
 interface QuoteSlideProps {
   data: QuoteSlideData;
@@ -11,7 +12,7 @@ interface QuoteSlideProps {
 
 export const QuoteSlide: React.FC<QuoteSlideProps> = ({ data }) => {
   return (
-    <div className="w-full min-h-[calc(100vh-8rem)] flex flex-col justify-center px-4 sm:px-8 py-8 max-w-5xl mx-auto text-center">
+    <SlideContainer className="max-w-5xl text-center">
       {/* Category Header */}
       {data.category && (
         <motion.span
@@ -60,6 +61,6 @@ export const QuoteSlide: React.FC<QuoteSlideProps> = ({ data }) => {
           )}
         </div>
       </motion.div>
-    </div>
+    </SlideContainer>
   );
 };

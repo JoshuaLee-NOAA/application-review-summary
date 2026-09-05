@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MetricsSlideData } from "@/types/presentation";
 import { TrendingUp, BarChart3, Info } from "lucide-react";
+import { SlideContainer } from "@/components/layout/SlideContainer";
 
 interface MetricsSlideProps {
   data: MetricsSlideData;
@@ -11,7 +12,7 @@ interface MetricsSlideProps {
 
 export const MetricsSlide: React.FC<MetricsSlideProps> = ({ data }) => {
   return (
-    <div className="w-full min-h-[calc(100vh-8rem)] flex flex-col justify-center px-4 sm:px-8 py-8 max-w-7xl mx-auto">
+    <SlideContainer>
       {/* Category Header */}
       {data.category && (
         <span className="text-xs font-semibold text-noaa-blue uppercase tracking-wider mb-2 block">
@@ -99,6 +100,6 @@ export const MetricsSlide: React.FC<MetricsSlideProps> = ({ data }) => {
           <span>{data.summaryNote}</span>
         </motion.div>
       )}
-    </div>
+    </SlideContainer>
   );
 };

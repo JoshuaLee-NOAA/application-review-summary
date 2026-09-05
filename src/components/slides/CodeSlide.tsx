@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { CodeSlideData } from "@/types/presentation";
 import { Code2, Copy, Check, Terminal, CheckCircle2 } from "lucide-react";
+import { SlideContainer } from "@/components/layout/SlideContainer";
 
 interface CodeSlideProps {
   data: CodeSlideData;
@@ -21,7 +22,7 @@ export const CodeSlide: React.FC<CodeSlideProps> = ({ data }) => {
   };
 
   return (
-    <div className="w-full min-h-[calc(100vh-8rem)] flex flex-col justify-center px-4 sm:px-8 py-8 max-w-7xl mx-auto">
+    <SlideContainer>
       {/* Category Header */}
       {data.category && (
         <span className="text-xs font-semibold text-noaa-blue uppercase tracking-wider mb-2 block">
@@ -122,6 +123,6 @@ export const CodeSlide: React.FC<CodeSlideProps> = ({ data }) => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </SlideContainer>
   );
 };

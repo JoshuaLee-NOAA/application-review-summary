@@ -1,20 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  weight: ["300", "400", "500", "600"],
-  display: "swap",
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  weight: ["400", "500"],
-  display: "swap",
-});
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -24,9 +9,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "NOAA Fisheries Presentation Template",
+  title: "Project 1315: Application Portfolio & Staffing Baseline",
   description:
-    "A clean, modern, mobile-first presentation template built with Next.js, Tailwind CSS, and Framer Motion.",
+    "A clean, modern, mobile-first presentation briefing analyzing 120 software systems and 201 OCIO personnel across NOAA Fisheries.",
 };
 
 export default function RootLayout({
@@ -35,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-noaa-blue-light selection:text-noaa-blue">
+    <html lang="en">
+      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-noaa-blue-light selection:text-noaa-blue font-sans">
         {children}
       </body>
     </html>

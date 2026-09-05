@@ -19,6 +19,12 @@ import { MetricsSlide } from "@/components/slides/MetricsSlide";
 import { FeatureGridSlide } from "@/components/slides/FeatureGridSlide";
 import { QuoteSlide } from "@/components/slides/QuoteSlide";
 import { CodeSlide } from "@/components/slides/CodeSlide";
+import { ChartSlide } from "@/components/slides/ChartSlide";
+import { HeatmapSlide } from "@/components/slides/HeatmapSlide";
+import { SankeySlide } from "@/components/slides/SankeySlide";
+import { RationalizationSlide } from "@/components/slides/RationalizationSlide";
+import { PortfolioGridSlide } from "@/components/slides/PortfolioGridSlide";
+import { PyramidSlide } from "@/components/slides/PyramidSlide";
 
 import {
   TitleSlideData,
@@ -27,6 +33,12 @@ import {
   FeatureGridSlideData,
   QuoteSlideData,
   CodeSlideData,
+  ChartSlideData,
+  HeatmapSlideData,
+  SankeySlideData,
+  RationalizationSlideData,
+  PortfolioGridSlideData,
+  PyramidSlideData,
 } from "@/types/presentation";
 
 function PresentationView() {
@@ -66,6 +78,18 @@ function PresentationView() {
         return <QuoteSlide data={currentSlide as QuoteSlideData} />;
       case "code":
         return <CodeSlide data={currentSlide as CodeSlideData} />;
+      case "charts":
+        return <ChartSlide data={currentSlide as ChartSlideData} />;
+      case "heatmap":
+        return <HeatmapSlide data={currentSlide as HeatmapSlideData} />;
+      case "sankey":
+        return <SankeySlide data={currentSlide as SankeySlideData} />;
+      case "rationalization":
+        return <RationalizationSlide data={currentSlide as RationalizationSlideData} />;
+      case "portfolioGrid":
+        return <PortfolioGridSlide data={currentSlide as PortfolioGridSlideData} />;
+      case "pyramid":
+        return <PyramidSlide data={currentSlide as PyramidSlideData} />;
       default:
         return null;
     }
@@ -96,7 +120,7 @@ function PresentationView() {
       />
 
       {/* Main Slide Canvas Container (Target for PDF Capture) */}
-      <main className="flex-1 w-full min-h-0 overflow-y-auto pb-20 pt-2 flex flex-col items-center justify-center">
+      <main className="flex-1 w-full min-h-0 overflow-y-auto pb-16 pt-1 flex flex-col items-center justify-start">
         <AnimatePresence mode="wait">
           {currentSlide && (
             <motion.div
@@ -107,7 +131,7 @@ function PresentationView() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.35, ease: "easeInOut" }}
-              className="w-full flex justify-center items-center"
+              className="w-full flex justify-center items-start"
             >
               {renderSlideComponent()}
             </motion.div>
